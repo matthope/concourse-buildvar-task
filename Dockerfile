@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM golang:1.20-alpine3.17 AS base
+FROM --platform=$BUILDPLATFORM golang:1.21-alpine3.17 AS base
 WORKDIR /opt/resource
 
 FROM base AS build
